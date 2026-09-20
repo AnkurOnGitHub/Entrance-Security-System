@@ -1,0 +1,34 @@
+# generated at runtime - none of this belongs in version control
+config.json
+events.db
+events.db-wal
+events.db-shm
+evidence/
+*.csv
+entrance_roi.json
+doorbell_ring.trigger
+
+# models are downloaded on first run
+*.pt
+
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# YOLO model
+yolov8n.pt
+
+# Documentation / local dependency files
+README.md
+requirements.txt
+
+# Local database
+events.db
+
